@@ -42,6 +42,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtBMI = new System.Windows.Forms.TextBox();
             this.rtxtAdvies = new System.Windows.Forms.RichTextBox();
+            this.lbllenVerplicht = new System.Windows.Forms.Label();
+            this.lblkgVerplicht = new System.Windows.Forms.Label();
+            this.lbllefVerplicht = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radbtnVrouw
@@ -168,11 +171,41 @@
             this.rtxtAdvies.TabIndex = 29;
             this.rtxtAdvies.Text = "leeg";
             // 
+            // lbllenVerplicht
+            // 
+            this.lbllenVerplicht.AutoSize = true;
+            this.lbllenVerplicht.Location = new System.Drawing.Point(409, 156);
+            this.lbllenVerplicht.Name = "lbllenVerplicht";
+            this.lbllenVerplicht.Size = new System.Drawing.Size(46, 17);
+            this.lbllenVerplicht.TabIndex = 30;
+            this.lbllenVerplicht.Text = "label1";
+            // 
+            // lblkgVerplicht
+            // 
+            this.lblkgVerplicht.AutoSize = true;
+            this.lblkgVerplicht.Location = new System.Drawing.Point(409, 185);
+            this.lblkgVerplicht.Name = "lblkgVerplicht";
+            this.lblkgVerplicht.Size = new System.Drawing.Size(46, 17);
+            this.lblkgVerplicht.TabIndex = 31;
+            this.lblkgVerplicht.Text = "label2";
+            // 
+            // lbllefVerplicht
+            // 
+            this.lbllefVerplicht.AutoSize = true;
+            this.lbllefVerplicht.Location = new System.Drawing.Point(409, 214);
+            this.lbllefVerplicht.Name = "lbllefVerplicht";
+            this.lbllefVerplicht.Size = new System.Drawing.Size(46, 17);
+            this.lbllefVerplicht.TabIndex = 32;
+            this.lbllefVerplicht.Text = "label3";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(587, 668);
+            this.Controls.Add(this.lbllefVerplicht);
+            this.Controls.Add(this.lblkgVerplicht);
+            this.Controls.Add(this.lbllenVerplicht);
             this.Controls.Add(this.rtxtAdvies);
             this.Controls.Add(this.txtBMI);
             this.Controls.Add(this.radbtnVrouw);
@@ -209,6 +242,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtBMI;
         private System.Windows.Forms.RichTextBox rtxtAdvies;
+        private System.Windows.Forms.Label lbllenVerplicht;
+        private System.Windows.Forms.Label lblkgVerplicht;
+        private System.Windows.Forms.Label lbllefVerplicht;
     }
 }
 

@@ -25,19 +25,46 @@ namespace BMI_Cal
             //Clears text
             txtBMI.Text = null;
             rtxtAdvies.Text = null;
-
+            lbllenVerplicht.Text = "";
+            lblkgVerplicht.Text = "";
+            lbllefVerplicht.Text = "";
         }
 
 
         private void btnBerekenen_Click(object sender, EventArgs e)
-        {   
+        {
+            //Resets form
+            txtbLengte.BackColor = Color.White;
+            txtbGewicht.BackColor = Color.White;
+            txtbLeeftijd.BackColor = Color.White;
+            lbllenVerplicht.Text = "";
+            lblkgVerplicht.Text = "";
+            lbllefVerplicht.Text = "";
+
             //Checks legen textboxen
             txtstate1 = txtbLengte.Text;
             txtstate2 = txtbGewicht.Text;
             txtstate3 = txtbLeeftijd.Text;
-            Empty_check.Class1 class1 = new Empty_check.Class1();
-            rtxtAdvies.Text = class1.Emptycheck(txtstate1, txtstate2, txtstate3, txtnull);
+            
+            //Color text box if empty
+            if (txtbLengte.Text == "")
+            {
+                txtbLengte.BackColor = Color.Red;
+                lbllenVerplicht.Text = "Verplicht";
+            }
+            if (txtbGewicht.Text == "")
+            {
+                txtbGewicht.BackColor = Color.Red;
+                lblkgVerplicht.Text = "Verplicht";
+            }
+            if (txtbLeeftijd.Text == "")
+            {
+                txtbLeeftijd.BackColor = Color.Red;
+                lbllefVerplicht.Text = "Verplicht";
+            }
 
+            //Checks legen textboxen 2
+            Empty_check.Class1 class1 = new Empty_check.Class1();
             if (txtnullloc == class1.Emptycheck(txtstate1, txtstate2, txtstate3, txtnull))
             {
                 //minimalen leeftijd
@@ -48,6 +75,7 @@ namespace BMI_Cal
                     kgv = Convert.ToDouble(txtbGewicht.Text);
                     lenv = Convert.ToDouble(txtbLengte.Text);
 
+                    //Advies
                     if (radbtnVrouw.Checked == true)
                     {
                         Vrouw = true;
@@ -70,6 +98,7 @@ namespace BMI_Cal
                     }
                 }
 
+                //Minimalen leeftijd
                 else
                 {
                     rtxtAdvies.Text = "U moet minimaal 18 jaar zijn om de BMI calculator te gebruiken.";
