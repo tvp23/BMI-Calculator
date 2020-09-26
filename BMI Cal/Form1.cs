@@ -17,7 +17,7 @@ namespace BMI_Cal
     {
         private double kgv, lenv, output, outputad, lenv2, sum, lenvm, Leeftijd;
         private bool Vrouw, Empty;
-        private string Result, txtstate1, txtstate2, txtstate3, txtnullloc;
+        private string Result, txtstate1, txtstate2, txtstate3, txtnullloc, txtnull;
         
         public Form1()
         {
@@ -36,9 +36,9 @@ namespace BMI_Cal
             txtstate2 = txtbGewicht.Text;
             txtstate3 = txtbLeeftijd.Text;
             Empty_check.Class1 class1 = new Empty_check.Class1();
-            rtxtAdvies.Text = class1.Emptycheck(txtstate1, txtstate2, txtstate3);
+            rtxtAdvies.Text = class1.Emptycheck(txtstate1, txtstate2, txtstate3, txtnull);
 
-            if (txtnullloc == class1.Emptycheck(txtstate1, txtstate2, txtstate3))
+            if (txtnullloc == class1.Emptycheck(txtstate1, txtstate2, txtstate3, txtnull))
             {
                 //minimalen leeftijd
                 Leeftijd = Convert.ToDouble(txtbLeeftijd.Text);

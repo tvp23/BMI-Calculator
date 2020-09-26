@@ -35,14 +35,15 @@
   <ItemGroup>
     <Reference Include="Adviesfinale, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Adviesfinale\bin\Debug\Adviesfinale.dll</HintPath>
+      <HintPath>..\Library\Adviesfinale\bin\Debug\Adviesfinale.dll</HintPath>
     </Reference>
     <Reference Include="BMI Sum, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\BMI Sum\bin\Debug\BMI Sum.dll</HintPath>
     </Reference>
-    <Reference Include="Empty check">
-      <HintPath>..\Empty check\bin\Debug\Empty check.dll</HintPath>
+    <Reference Include="Empty check, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Empty check\bin\Debug\Empty check.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
