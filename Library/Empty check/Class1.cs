@@ -18,12 +18,12 @@ namespace Empty_check
             
             else if (txtstate2 == "")
             {
-                return txterror2 = "u moet nog uw Lengte invullen.";
+                return txterror2 = "u moet nog uw Gewicht invullen.";
             }
             
             else if (txtstate3 == "")
             {
-                return txterror3 = "u moet nog uw Lengte invullen.";
+                return txterror3 = "u moet nog uw Leeftijd invullen.";
             }
             
             return txtnull;
