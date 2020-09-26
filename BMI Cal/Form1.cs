@@ -15,7 +15,7 @@ namespace BMI_Cal
 {
     public partial class Form1 : Form
     {
-        private double kgv, lenv, output, outputad, lenv2, sum, lenvm, Leeftijd;
+        private double kgv, lenv, output, outputad, lenv2, sum, lenvm, Leeftijd, a;
         private bool Vrouw, Empty;
         private string Result, txtstate1, txtstate2, txtstate3, txtnullloc, txtnull;
         
@@ -33,6 +33,7 @@ namespace BMI_Cal
 
         private void btnBerekenen_Click(object sender, EventArgs e)
         {
+
             //Resets form
             txtbLengte.BackColor = Color.White;
             txtbGewicht.BackColor = Color.White;
@@ -45,13 +46,14 @@ namespace BMI_Cal
             txtstate1 = txtbLengte.Text;
             txtstate2 = txtbGewicht.Text;
             txtstate3 = txtbLeeftijd.Text;
-            
+
             //Color text box if empty
             if (txtbLengte.Text == "")
             {
                 txtbLengte.BackColor = Color.Red;
                 lbllenVerplicht.Text = "Verplicht";
             }
+        
             if (txtbGewicht.Text == "")
             {
                 txtbGewicht.BackColor = Color.Red;
