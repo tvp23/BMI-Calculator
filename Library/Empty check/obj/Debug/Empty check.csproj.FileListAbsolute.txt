@@ -1,0 +1,6 @@
+C:\Users\twanv\source\repos\Empty check\obj\Debug\Empty check.csprojAssemblyReference.cache
+C:\Users\twanv\source\repos\Empty check\obj\Debug\Empty check.csproj.CoreCompileInputs.cache
+C:\Users\twanv\source\repos\Empty check\bin\Debug\Empty check.dll
+C:\Users\twanv\source\repos\Empty check\bin\Debug\Empty check.pdb
+C:\Users\twanv\source\repos\Empty check\obj\Debug\Empty check.dll
+C:\Users\twanv\source\repos\Empty check\obj\Debug\Empty check.pdb

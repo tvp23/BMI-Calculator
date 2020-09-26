@@ -1,0 +1,6 @@
+C:\Users\twanv\source\repos\Adviesfinale\bin\Debug\Adviesfinale.dll
+C:\Users\twanv\source\repos\Adviesfinale\bin\Debug\Adviesfinale.pdb
+C:\Users\twanv\source\repos\Adviesfinale\obj\Debug\Adviesfinale.csprojAssemblyReference.cache
+C:\Users\twanv\source\repos\Adviesfinale\obj\Debug\Adviesfinale.csproj.CoreCompileInputs.cache
+C:\Users\twanv\source\repos\Adviesfinale\obj\Debug\Adviesfinale.dll
+C:\Users\twanv\source\repos\Adviesfinale\obj\Debug\Adviesfinale.pdb

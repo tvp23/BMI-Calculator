@@ -1,0 +1,6 @@
+C:\Users\twanv\source\repos\BMI Sum\bin\Debug\BMI Sum.dll
+C:\Users\twanv\source\repos\BMI Sum\bin\Debug\BMI Sum.pdb
+C:\Users\twanv\source\repos\BMI Sum\obj\Debug\BMI Sum.csproj.CoreCompileInputs.cache
+C:\Users\twanv\source\repos\BMI Sum\obj\Debug\BMI Sum.dll
+C:\Users\twanv\source\repos\BMI Sum\obj\Debug\BMI Sum.pdb
+C:\Users\twanv\source\repos\BMI Sum\obj\Debug\BMI Sum.csprojAssemblyReference.cache
