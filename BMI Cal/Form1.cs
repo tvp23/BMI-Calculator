@@ -42,7 +42,7 @@ namespace BMI_Cal
             {
                 //minimalen leeftijd
                 Leeftijd = Convert.ToDouble(txtbLeeftijd.Text);
-                if (Leeftijd > 18)
+                if (Leeftijd >= 18)
                 {
                     //BMI calculator
                     kgv = Convert.ToDouble(txtbGewicht.Text);
