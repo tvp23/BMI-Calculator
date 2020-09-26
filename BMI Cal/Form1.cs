@@ -15,9 +15,10 @@ namespace BMI_Cal
 {
     public partial class Form1 : Form
     {
-        private double kgv, lenv, output, outputad, lenv2, sum, lenvm, Leeftijd, a;
-        private bool Vrouw, Empty;
+        private double kgv, lenv, output, outputad, lenv2, sum, lenvm, Leeftijd;
+        private bool Vrouw;
         private string Result, txtstate1, txtstate2, txtstate3, txtnullloc, txtnull;
+        
         
         public Form1()
         {
@@ -30,7 +31,7 @@ namespace BMI_Cal
             lbllefVerplicht.Text = "";
         }
 
-
+        
         private void btnBerekenen_Click(object sender, EventArgs e)
         {
 
