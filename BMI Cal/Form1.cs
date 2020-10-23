@@ -13,14 +13,15 @@ using Empty_check;
 
 namespace BMI_Cal
 {
-    public partial class Form1 : Form
+    public partial class BMICalc : Form
     {
         private double kgv, lenv, output, outputad, lenv2, sum, lenvm, Leeftijd;
+
         private bool Vrouw;
         private string Result, txtstate1, txtstate2, txtstate3, txtnullloc, txtnull;
         
         
-        public Form1()
+        public BMICalc()
         {
             InitializeComponent();
             //Clears text

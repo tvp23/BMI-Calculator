@@ -1,6 +1,6 @@
 ﻿namespace BMI_Cal
 {
-    partial class Form1
+    partial class BMICalc
     {
         /// <summary>
         /// Required designer variable.
@@ -198,7 +198,7 @@
             this.lbllefVerplicht.TabIndex = 32;
             this.lbllefVerplicht.Text = "label3";
             // 
-            // Form1
+            // BMICalc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -220,8 +220,8 @@
             this.Controls.Add(this.txtbLengte);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "BMICalc";
+            this.Text = "BMI Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 

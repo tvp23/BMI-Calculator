@@ -22,7 +22,6 @@ C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\bin\Debug\Adviesfinale.pd
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\bin\Debug\BMI Sum.pdb
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\bin\Debug\Empty check.pdb
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\obj\Debug\BMI Cal.csprojAssemblyReference.cache
-C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\obj\Debug\BMI_Cal.Form1.resources
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\obj\Debug\BMI_Cal.Properties.Resources.resources
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\obj\Debug\BMI Cal.csproj.GenerateResource.cache
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\obj\Debug\BMI Cal.csproj.CoreCompileInputs.cache
@@ -31,3 +30,4 @@ C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\obj\Debug\BMI Cal.exe
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\obj\Debug\BMI Cal.pdb
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\bin\Debug\Adviesfinale.dll
 C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\bin\Debug\Empty check.dll
+C:\Users\twanv\Documents\GitHub\BMI-Calculator\BMI Cal\obj\Debug\BMI_Cal.BMICalc.resources
